@@ -1,0 +1,29 @@
+{
+  "name": "portfolio1",
+  "version": "1.0.0",
+  "description": "My great Nuxt.js project",
+  "author": "Kabilesh",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://Kabilesh020799.github.io/KabileshRavi",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "gh-pages": "^3.0.0",
+    "nuxt": "^2.0.0",
+    "particles-bg-vue": "^1.3.5",
+    "sass-loader": "^8.0.2",
+    "vue-anime": "^1.0.0",
+    "vue-kinesis": "^1.1.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "push-dir": "^0.4.1",
+    "vue-particles": "^1.0.9"
+  }
+}
