@@ -9,9 +9,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "heroku-postbuild" : "npm run build"
   },
-  "homepage": "https://Kabilesh020799.github.io/KabileshRavi",
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "gh-pages": "^3.0.0",
